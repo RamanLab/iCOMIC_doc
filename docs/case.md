@@ -180,8 +180,12 @@ Displays differentially expressed genes in R plots such as MA plot, Heatmap, PCA
 iCOMIC allows the user to start the analysis with aligned BAM files. For running iCOMIC with BAM files as input, the files should be sorted and stored in a folder named ‘results_dna/mapped’ or ‘results/mapped’ in the case DNA seq and RNA seq workflows respectively. The BAM files should be named in the format `{sample}-{unit}-{condition}.sorted.bam`. It is advised that while choosing this approach, the input is provided as a table. The sample information should be specified as mentioned in section 3 with fq1 and fq2 columns empty.
 ##### 10.5.13 Running cTaG
 
+cTaG (classify TSG and OG) is a tool used to identify tumour suppressor genes (TSGs) and oncogenes (OGs) using somatic mutation data. A maf file is required to run the cTaG tool, it can either be generated from the DNA-Seq output vcf file in the results tab or browsed locally. Added to that, you can mention the parameters required to run the cTag in the parameters option provided.You can click on the run button to initialize the analysis, once the necessary files have been uploaded.Once the analysis is completed, you can click on the Results button to view the results. 
+
 ![Figure 13: cTaG tab ](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/ctagnew.PNG?raw=true)
 ##### 10.5.14 Running NBDriver
+
+NBDriver (NEIGHBORHOOD Driver) is a tool used to differentiate between driver and passenger mutations. A vcf file is required to run NBDriver, it can either be browsed from the DNA-Seq output directory or locally. You can click on the run button to initialize the analysis, once the necessary files have been uploaded. Once the analysis is completed, you can click on the Results button to view the results.
 
 ![Figure 14: NBDriver tab](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/nbdrivernew.PNG?raw=true)
 #### 10.6 Retrieving logs:
