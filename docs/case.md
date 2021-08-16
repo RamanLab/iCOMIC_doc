@@ -182,10 +182,10 @@ iCOMIC allows the user to start the analysis with aligned BAM files. For running
 
 cTaG (classify TSG and OG) is a tool used to identify tumour suppressor genes (TSGs) and oncogenes (OGs) using somatic mutation data. A maf file is required to run the cTaG tool, it can either be generated from the DNA-Seq output vcf file in the results tab or browsed locally. Added to that, you can mention the parameters required to run the cTag in the parameters option provided.You can click on the run button to initialize the analysis, once the necessary files have been uploaded.Once the analysis is completed, you can click on the Results button to view the results. 
 
-![Figure 13: cTaG tab ](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/ctagnew.PNG?raw=true)
+![Figure 13: cTaG tab ](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/ctag.PNG?raw=true)
 ##### 10.5.14 Running NBDriver
 
 NBDriver (NEIGHBORHOOD Driver) is a tool used to differentiate between driver and passenger mutations. A vcf file is required to run NBDriver, it can either be browsed from the DNA-Seq output directory or locally. You can click on the run button to initialize the analysis, once the necessary files have been uploaded. Once the analysis is completed, you can click on the Results button to view the results.
 
-![Figure 14: NBDriver tab](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/nbdrivernew.PNG?raw=true)
+![Figure 14: NBDriver tab](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/nbdriver.PNG?raw=true)
 #### 10.6 Retrieving logs:
