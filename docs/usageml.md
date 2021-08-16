@@ -1,6 +1,6 @@
 ## 5. Using iCOMIC for cTaG and NBDriver tools
 
-#### 5.1. About cTaG
+#### 5.1. cTaG
 
 `cTaG` (classify TSG and OG) is a tool used to identify tumour suppressor genes (TSGs) and oncogenes (OGs) using somatic mutation data. The cTaG model returns the list of all genes labelled as TSG or OG or unlabelled along with predictions made by each model and whether the gene is among the top predictions.
 
@@ -17,7 +17,7 @@ You can click on the `run` button to initialize the analysis, once the necessary
 Once the analysis is completed, you can click on the `Results` button to view the results
 
 
-#### 5.2. About NBDriver
+#### 5.2. NBDriver
 
 `NBDriver` (NEIGHBORHOOD Driver) is a tool used to differentiate between driver and passenger mutations using features derived from the neighborhood sequences of somatic mutations. NBDriver returns a list of all mutations labelled as Driver or Passenger.
 
