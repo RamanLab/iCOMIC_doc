@@ -179,6 +179,9 @@ Displays differentially expressed genes in R plots such as MA plot, Heatmap, PCA
 ##### 10.5.12 Analysis with BAM input
 iCOMIC allows the user to start the analysis with aligned BAM files. For running iCOMIC with BAM files as input, the files should be sorted and stored in a folder named ‘results_dna/mapped’ or ‘results/mapped’ in the case DNA seq and RNA seq workflows respectively. The BAM files should be named in the format `{sample}-{unit}-{condition}.sorted.bam`. It is advised that while choosing this approach, the input is provided as a table. The sample information should be specified as mentioned in section 3 with fq1 and fq2 columns empty.
 ##### 10.5.13 Running cTaG
+
+![Figure 13: cTaG tab ](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/ctagnew.PNG?raw=true)
 ##### 10.5.14 Running NBDriver
 
+![Figure 14: NBDriver tab](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/nbdrivernew.PNG?raw=true)
 #### 10.6 Retrieving logs:
