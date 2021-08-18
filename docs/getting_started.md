@@ -8,7 +8,7 @@ This guide will walk you through the steps necessary to understand, install, and
 
 #### 3.1. iCOMIC overview
 
-iCOMIC is an open-source, stand-alone toolkit for genomic data analysis, characterized by a python based Graphical User Interface. The tool enables researchers with minimal programming expertise to draw consequential insights from DNA-Seq and RNA-Seq data.
+iCOMIC is an open-source, stand-alone toolkit for genomic data analysis, characterized by a python based Graphical User Interface. The tool enables researchers with minimal programming expertise to draw consequential insights from DNA-Seq and RNA-Seq data along with machine learning tools cTaG and NBDriver .
 
 #### 3.2. Install iCOMIC
 
@@ -41,7 +41,7 @@ iCOMIC can be launched using a simple command in the terminal.
 
 ```
 
-$ ‘python mainwin_v32.py’
+$ ‘python iCOMIC_v1.0.py’
 
 ```
 
@@ -121,6 +121,8 @@ Here is a typical set of actions to run iCOMIC pipelines:
 
 15. Results for RNA-Seq analysis include multiQC analysis statistics, R plots such as MA plot, Heatmap, PCA plot and box plot and list of differentially expressed genes.
 
+16. Proceed to cTaG/NBDriver tab for further analysis if needed.
+
 #### 3.7. Output information
 
 All outputs are stored in separate folders inside the main folder iCOMIC, for each pipeline along with log information.
@@ -157,5 +159,7 @@ Contain a text file with a consolidated list of differentially expressed genes.
 This is an optional folder which contains the index files if the user chooses to generate index corresponding to the choice of aligner.
 
 - cTAG
+
+cTaG (classify TSG and OG) is a tool used to identify tumour suppressor genes (TSGs) and oncogenes (OGs) using somatic mutation data.The cTaG model returns the list of all genes labelled as TSG or OG or unlabelled along with predictions made my each model and whether the gene is among top predictions.
 - NBDriver
 
