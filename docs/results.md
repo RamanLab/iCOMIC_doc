@@ -6,6 +6,7 @@ The tool multiQC compiles the analysis statistics for different tools and provid
 #### 8.2. Plots generated in RNA-Seq
 Differential Expression tools generate R plots such as MA plot, Heatmap, PCA plot and box plot displays the predicted differentially expressed genes. MA plot helps to find log2 fold changes,Heatmap helps in exploring the count matrix, PCA Plot visualizes the overall effect of experimental covariates and batch effects and box plots used to find count outliers.
 #### 8.3. List of differentially expressed genes in RNA-Seq
+A text file with a list of all differentially expressed genes is displayed. The text file contains columns representing Gene Id's, fc, pval, qval and logfc etc. 
 #### 8.4. Variants Called in DNA-Seq
 iCOMIC displays the variants identified in `vcf` format. In the results tab, the user can click on the `click` button and a pop-up with the `vcf` file will be displayed. 
 #### 8.5. Annotated variants in DNA-Seq
