@@ -1,6 +1,6 @@
-## 11. Troubleshooting runtime issues
+## 10. Troubleshooting runtime issues
 
-#### 11.1. FAQs
+#### 10.1. FAQs
 
 -  General
 
