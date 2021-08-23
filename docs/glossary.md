@@ -1,4 +1,4 @@
-## 13. Glossary
+## 12. Glossary
 1.  GTF- Gene Transfer Format
     
 2.  NGS - Next Generation Sequencing
