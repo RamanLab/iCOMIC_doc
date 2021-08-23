@@ -15,7 +15,6 @@ Documents
    walkthrough
    custom
    results
-   gallery
    case
    troubleshoot
    changelog
