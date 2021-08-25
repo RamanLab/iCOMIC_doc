@@ -11,3 +11,6 @@ source_suffix = ['.rst', '.md']
 
 master_doc = 'index'
 project = u'iCOMIC_doc'
+
+formats:
+  - pdf
