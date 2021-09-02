@@ -35,8 +35,7 @@ iCOMIC is characterized by a Graphical user Interface which enhances the accessi
 iCOMIC can be launched using a simple command in the terminal.
 
 ```
-$ ‘python iCOMIC_v1.0.py’
-
+$ python iCOMIC_v1.0.py
 ```
 
 #### 3.5. Input file format
@@ -47,7 +46,7 @@ iCOMIC accepts input information in two different modes. The user can either fee
 
 - If you are uploading a folder of fastq files, all the files should be named in the specified format:
 
-	(sample_name)_(condition(tumor/normal))_Rep(replicate_number)_R(1 / 2).fastq
+	`(sample_name)_(condition(tumor/normal))_Rep(replicate_number)_R(1 / 2).fastq`
 
 	Example: hcc1395_normal_Rep1_R1.fastq
 
