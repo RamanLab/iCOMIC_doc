@@ -50,9 +50,6 @@ iCOMIC accepts input information in two different modes. The user can either fee
 	```(sample_name)_(condition(tumor/normal))_Rep(replicate_number)_R(1 / 2).fastq```
 
 	Example: hcc1395_normal_Rep1_R1.fastq  
-	
-
-  
 
 - If you choose upload a table, the sample information should be given in a tab delimited file with a header row.
 
