@@ -16,9 +16,10 @@ Installation is easy as we provide a `requirements.txt` file comprising all the 
 
 ```
 
-$ pip install requirements.txt
+pip install requirements.txt
 
 ```
+<script src="https://gist.github.com/banerjeeshayantan/cb81ceb3d8973e0c9c6d7e423e098771.js"></script>
 
   
 
