@@ -83,7 +83,8 @@ The user will have the freedom to choose any possible combination of tools. Figu
 
 
 Here is a typical set of actions to run iCOMIC pipelines:  
-* Select a pipeline.
+
+*  Select a pipeline.
 
 * Choose the mode of input
 
