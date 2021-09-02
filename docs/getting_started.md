@@ -1,3 +1,5 @@
+.. _executable:
+
 ## 3. Getting started
 
 
