@@ -14,9 +14,8 @@ iCOMIC is an open-source, stand-alone toolkit for genomic data analysis, charact
 
 Installation is easy as we provide a `requirements.txt` file comprising all the software dependencies. Once you clone the iCOMIC github repository, you can install all the associated dependencies using the command below. Every additional software requirement will be managed by the conda environment.
 
-```
 <script src="https://gist.github.com/banerjeeshayantan/cb81ceb3d8973e0c9c6d7e423e098771.js"></script>
-```
+
 
 #### 3.3. The components
 
