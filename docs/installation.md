@@ -25,7 +25,6 @@ The entire source code for the tool is available at “ ”
 Install the dependencies associated with iCOMIC by using the following command
 
 ```
-
 $ pip install requirements.txt
 
 ```
