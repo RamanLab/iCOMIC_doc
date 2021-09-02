@@ -26,7 +26,6 @@ Install the dependencies associated with iCOMIC by using the following command
 
 ```
 $ pip install requirements.txt
-
 ```
 
   #### 2.4. Conda Installation
