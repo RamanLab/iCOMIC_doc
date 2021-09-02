@@ -49,11 +49,12 @@ iCOMIC accepts input information in two different modes. The user can either fee
 
 	```(sample_name)_(condition(tumor/normal))_Rep(replicate_number)_R(1 / 2).fastq```
 
-	Example: hcc1395_normal_Rep1_R1.fastq
+	Example: hcc1395_normal_Rep1_R1.fastq  
+	
 
   
 
-- If you choose upload from table mode, the sample information should be given in a tab delimited file with a header row.
+- If you choose upload a table, the sample information should be given in a tab delimited file with a header row.
 
 	The Column names should be:
 
@@ -84,7 +85,8 @@ The user will have the freedom to choose any possible combination of tools. Figu
 
 
 
-Here is a typical set of actions to run iCOMIC pipelines:
+Here is a typical set of actions to run iCOMIC pipelines:  
+
 1. Select a pipeline.
 
 2. Choose the mode of input
