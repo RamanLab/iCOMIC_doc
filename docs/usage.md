@@ -30,15 +30,15 @@ In the `Quality Control` widget, you can examine the quality of your samples for
 
 In the tool selection widget, you will be asked to choose your desired set of tools for analysis.
 
-- Aligner
+-Aligner
 
 You can choose a software for sequence alignment from the drop down menu. You will also need to input the genome index corresponding to the choice of aligner. No worries! iCOMIC allows you to generate the required index using the `Generate index` button. One will have the permission to change the values for the mandatory parameters displayed. Moreover, if you are an expert bioinformatician, iCOMIC allows you to play around with the advanced parameters. Clicking on the `Advanced` button would open a pop-up of all the parameters associated with a tool.
 
-- Variant Caller
+-Variant Caller
 
 This section permits you to choose a variant caller from the set of tools integrated. If the input sample is normal-tumor specific, then only those tools which call variants comparing the normal and tumor samples will be displayed. On the other hand, if you want to call variants corresponding to the reference genome, variant callers of that type would be displayed. iCOMIC allows you to set mandatory as well as advanced parameters for the selected tool.
 
-- Annotator
+-Annotator
 
 This section allows you to choose a tool for annotating your called variants and specify the parameters.
 
@@ -52,15 +52,15 @@ The `Run` tab displays an `Unlock` button and a `Run` button. `Run` is for initi
 
 Once the analysis is completed, iCOMIC will automatically take you to the `Results` tab which displays three major results.
 
-1. Analysis Statistics
+1. 'Analysis Statistics':
 
 Displays a MultiQC consolidated report of overall analysis statistics. This includes FastQC reports, Alignment statistics and variant statistics.
 
-2. Variants called
+2. 'Variants called':
 
 On clicking this button a pop up with the `vcf` file of variants called will be displayed.
 
-3. Annotated variants
+3. 'Annotated variants':
 
 Displays the annotated `vcf` file.
 
@@ -94,15 +94,15 @@ In the `Quality Control` widget, you can examine the quality of your samples for
 
 In the tool selection widget, you will be asked to choose your desired set of tools for analysis.
 
-- Aligner
+-Aligner
 
 You can choose a software for sequence alignment from the drop down menu. You will also need to input the genome index corresponding to the choice of aligner. No worries! iCOMIC allows you to generate the required index using the `Generate index` button. One will have the permission to change the values for the mandatory parameters displayed. Moreover, if you are an expert bioinformatician, iCOMIC allows you to play around with the advanced parameters. Clicking on the `Advanced` button would open a pop-up of all the parameters associated with a tool.
 
-- Expression Modeller
+-Expression Modeller
 
 This section allows you to choose an expression modeller from the integrated list of tools for counting the reads with the help of annotation file. Users will also have the freedom to set parameters corresponding to the tool.
 
-- Differential Expression tool
+-Differential Expression tool
 
 Here you can choose a tool for quantifying differential expression and can also set parameters.
 
