@@ -10,9 +10,9 @@
 
 	3. How can I deploy iCOMIC on a server or cloud platform?
 
-	4. As a Windows user, What do I set up iCOMIC?
+	4. As a Windows user, how do I set up iCOMIC?
 
-	5. As a Mac user, What do I set up iCOMIC?
+	5. As a Mac user, how do I set up iCOMIC?
 
 -  New Users
 
