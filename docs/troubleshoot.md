@@ -4,19 +4,19 @@
 
 -  General
 
-	1. Where can I find iCOMIC citation reference and text?
+	1. How do I cite iCOMIC?
 
 	2. Where can I access the latest iCOMIC source code?
 
-	3. Do I need to deploy iCOMIC locally on a server or cloud to use it?
+	3. How can I deploy iCOMIC on a server or cloud platform?
 
-	4. As a Windows user, What do I need to set up to use iCOMIC?
+	4. As a Windows user, What do I set up iCOMIC?
 
-	5. As a Mac user, What do I need to set up to use iCOMIC?
+	5. As a Mac user, What do I set up iCOMIC?
 
 -  New Users
 
-	1. What is the best place to report iCOMIC bugs?
+	1. How do I report bugs and suggest improvements for iCOMIC?
 
 - Installation issues
 
