@@ -47,7 +47,7 @@ Cutadapt is a trimming tool that enables the user to remove adapter and primer s
 | ``-q`` | Quality cutoff | 
 
 
-#### - Aligners
+#### Aligners
 ###### GEM-Mapper
 
  It is a high-performance mapping tool that performs alignment of sequencing reads against large reference genomes. GEM Mapper has been identified as an efficient mapping tool by a benchmarking analysis performed along with this study. Listed below are some parameters of the tool GEM-Mapper. Other parameters can be found in [GEM-Mapper github page](https://github.com/smarco/gem3-mapper)
