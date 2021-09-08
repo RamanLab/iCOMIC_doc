@@ -111,14 +111,8 @@ Select warning icon pops up near the unlock button, you need to click the unlock
 
 Once the analysis is completed, iCOMIC will automatically take you to the `Results` tab which displays three major results.
 
-1. Analysis Statistics
+1. `Analysis Statistics`:Displays a MultiQC consolidated report of overall analysis statistics. This includes FastQC reports and Alignment statistics .
 
-Displays a MultiQC consolidated report of overall analysis statistics. This includes FastQC reports and Alignment statistics .
+2. `Differentially Expressed Genes`:On clicking this button a pop up with the list of differentially expressed genes will be displayed.
 
-2. Differentially Expressed Genes
-
-On clicking this button a pop up with the list of differentially expressed genes will be displayed.
-
-3. Plots
-
-Displays differentially expressed genes in R plots such as MA plot, Heatmap, PCA plot and box plot.
+3. `Plots`:Displays differentially expressed genes in R plots such as MA plot, Heatmap, PCA plot and box plot.
