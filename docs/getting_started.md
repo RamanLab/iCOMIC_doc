@@ -121,7 +121,7 @@ Here is a typical set of actions to run iCOMIC pipelines:
 All outputs are stored in separate folders inside the main folder iCOMIC, for each pipeline along with log information.
 
 
-- DNA-Seq
+-DNA-Seq
 
 
 DNA-Seq analysis generates five output folders as follows.
@@ -136,7 +136,7 @@ Contains annotated `vcf` files.
 	- Index
 This is an optional folder which contains the index files if the user chooses to generate index corresponding to the choice of aligner.
 
-- RNA-Seq
+-RNA-Seq
 
 
 RNA-Seq analysis generates five output folders inside the main folder iCOMIC, as follows.
@@ -151,9 +151,9 @@ Contain a text file with a consolidated list of differentially expressed genes.
 	- Index
 This is an optional folder which contains the index files if the user chooses to generate index corresponding to the choice of aligner.
 
-- cTAG
+-cTAG
 
 cTaG (classify TSG and OG) is a tool used to identify tumour suppressor genes (TSGs) and oncogenes (OGs) using somatic mutation data.The cTaG model returns the list of all genes labelled as TSG or OG or unlabelled along with predictions made my each model and whether the gene is among top predictions.
-- NBDriver
+-NBDriver
 
 NBDriver (NEIGHBORHOOD Driver) is a tool used to differentiate between driver and passenger mutations. It returns a list of all mutations labelled as Driver or Passenger.
