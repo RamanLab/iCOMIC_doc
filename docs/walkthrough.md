@@ -112,7 +112,7 @@ It is a fast and sensitive alignment program applicable for both RNA-seq and Who
 | ``--pen-cansplice`` (int) | Sets the penalty for each pair of canonical splice sites (e.g. GT/AG) | 
 
 
-#### -  Variant Callers
+#### Variant Callers
 
 ###### GATK HC
 
@@ -178,7 +178,7 @@ This tool identifies somatic mutations such as indels and SNAs in a diseased sam
 
 MuSe is a tool that calls somatic point mutations in normal-tumor sample pairs using a Markov substitution model for evolution. More information about the tool can be found in [MuSE variant caller tool page](https://bioinformatics.mdanderson.org/public-software/muse/)
 
-#### - Annotators
+#### Annotators
 ###### SnpEff
 
 SnpEff tool performs genomic variant annotations and functional effect prediction. Key parameters for the tool SnpEff are listed below.  Detailed list of parameters is given in [SnpEff manual page](http://snpeff.sourceforge.net/SnpEff_manual.html#cmdline)
@@ -204,7 +204,7 @@ Annovar can be used to efficiently annotate functional variants such as SNVs and
 | ``--batchsize`` | batch size for processing variants per batch *(default: 5m)* | 
 
 
-#### -  Expression modellers
+#### Expression modellers
 ###### StringTie
 
 StringTie is known for efficient and rapid assembly of RNA-Seq alignments into possible transcripts. It employs a novel network flow algorithm and an optional de novo assembly algorithm to assemble the alignments. The important parameters to look into are listed below. The other parameters for the tool can be found in [StringTie Manual Page](http://ccb.jhu.edu/software/stringtie/index.shtml?t=manual)
@@ -232,7 +232,7 @@ HTSeq facilitates in counting the number of mapped reads to each gene. It provid
 | ``-m`` | Mode to handle reads overlapping more than one feature | 
 
 
-#### -  Differential Expression tools
+#### Differential Expression tools
 ###### ballgown
 
 ballgown is an R language based tool that enables the statistical analysis of assembled transcripts and differential expression analysis along with its visualization. Key arguments for the tool are given below. The other arguments for the tool can be found in [ballgown Manual page](https://www.bioconductor.org/packages/release/bioc/manuals/ballgown/man/ballgown.pdf)
