@@ -52,17 +52,11 @@ The `Run` tab displays an `Unlock` button and a `Run` button. `Run` is for initi
 
 Once the analysis is completed, iCOMIC will automatically take you to the `Results` tab which displays three major results.
 
-1. 'Analysis Statistics':
+1. `Analysis Statistics`:Displays a MultiQC consolidated report of overall analysis statistics. This includes FastQC reports, Alignment statistics and variant statistics.
 
-Displays a MultiQC consolidated report of overall analysis statistics. This includes FastQC reports, Alignment statistics and variant statistics.
+2. `Variants called`:On clicking this button a pop up with the `vcf` file of variants called will be displayed.
 
-2. 'Variants called':
-
-On clicking this button a pop up with the `vcf` file of variants called will be displayed.
-
-3. 'Annotated variants':
-
-Displays the annotated `vcf` file.
+3. `Annotated variants`:Displays the annotated `vcf` file.
 
   
 
