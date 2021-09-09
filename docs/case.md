@@ -33,14 +33,14 @@ Here is a typical set of actions to run iCOMIC pipelines:
 - Choose the mode of input
 - Input the required data fields
 - Proceed to the next tab if you want to skip Quality Check
-- Or click on the Quality Control Results button to view a consolidated MultiQC report of Quality statistics
-- Check yes if you want to do trimming and also mention the additional parameters as per requirement
+- Or click on the `Quality Control Results` button to view a consolidated MultiQC report of Quality statistics
+- Check `yes` if you want to do trimming and also mention the additional parameters as per requirement
 - Tool for Quality Control: FastQC
 - Tool for trimming the reads: Cutadapt
-- Choose the tools of interest from Tool selection tab and set the parameters as required
+- Choose the tools of interest from `Tool selection` tab and set the parameters as required
 - For the choice of aligner, the corresponding genome index file needs to be uploaded if available, or the user can generate the index file using the Generate Index button
-- Click Run on the next tab to run the analysis
-- Once the analysis is completed, the Results tab will be opened
+- Click `Run` on the next tab to run the analysis
+- Once the analysis is completed, the `Results` tab will be opened
 - DNA-Seq results include a MultiQC report comprising the statistics of the entire analysis, a file consisting of the variants called and the corresponding annotated variant file
 - Results for RNA-Seq analysis include multiQC analysis statistics, R plots such as MA plot, Heatmap, PCA plot and box plot and list of differentially expressed genes
 - Proceed to cTaG/NBDriver tab for further analysis if needed
