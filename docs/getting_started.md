@@ -82,39 +82,8 @@ The user will have the freedom to choose any possible combination of tools. Figu
 
 
 
-Here is a typical set of actions to run iCOMIC pipelines:  
+Refer section 9 Tutorials to see typical set of actions to run iCOMIC pipelines 
 
-*  Select a pipeline.
-
-* Choose the mode of input
-
-* Input the required data fields.
-
-* Proceed to the next tab if you want to skip Quality Check.
-
-* Or click on the `Quality Control Results` button to view a consolidated MultiQC report of Quality statistics.
-
-* Check `yes` if you want to do trimming and also mention the additional parameters as per requirement.
-
-* Tool for Quality Control: FastQC
-
-* Tool for trimming the reads: Cutadapt
-
-* Choose the tools of interest from `Tool selection` tab and set the parameters as required
-
-* For the choice of aligner, the corresponding genome index file needs to be uploaded if available, or the user can generate the index file using the `Generate Index` button.
-
-* Click `Run` on the next tab to run the analysis.
-
-* If a warning button pops-up near the `Unlock` button, click on it to unlock the working directory.
-
-* Once the analysis is completed, `Results` tab will be opened.
-
-* DNA-Seq results include a MultiQC report comprising the statistics of the entire analysis. A file consisting of the variants called and the corresponding annotated variant file.
-
-* Results for RNA-Seq analysis include multiQC analysis statistics, R plots such as MA plot, Heatmap, PCA plot and box plot and list of differentially expressed genes.
-
-* Proceed to cTaG/NBDriver tab for further analysis if needed.
 
 #### 3.7. Output information
 
@@ -154,6 +123,7 @@ This is an optional folder which contains the index files if the user chooses to
 -cTaG
 
 cTaG (classify TSG and OG) is a tool used to identify tumour suppressor genes (TSGs) and oncogenes (OGs) using somatic mutation data.The cTaG model returns the list of all genes labelled as TSG or OG or unlabelled along with predictions made my each model and whether the gene is among top predictions.
+
 -NBDriver
 
 NBDriver (NEIGHBORHOOD Driver) is a tool used to differentiate between driver and passenger mutations. It returns a list of all mutations labelled as Driver or Passenger.
