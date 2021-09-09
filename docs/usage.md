@@ -4,9 +4,11 @@
 
 `DNA-Seq`  constitutes the Whole Genome/Exome Sequencing data analysis pipeline which permits the user to call variants from the input samples and annotate them. iCOMIC integrates a combination of 3 aligners, 5 variant callers and 2 annotators along with the tools for Quality control. The tool MultiQC is incorporated to render comprehensive analysis statistics.
 
- 
+-`Aligners`:GEM-Mapper, BWA-MEM, Bowtie2 
 
-  
+-`Variant callers`:GATK HC, samtools mpileup, FreeBayes, MuSE, GATK Mutect2 
+
+-`Annotators`:Annovar, SnpEff
 
 ##### 4.1.1. Input Requirements
 
