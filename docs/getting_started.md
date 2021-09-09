@@ -82,7 +82,7 @@ The user will have the freedom to choose any possible combination of tools. Figu
 
 
 
-Refer section 9 Tutorials to see typical set of actions to run iCOMIC pipelines 
+Refer section 9 Tutorials for the typical set of actions to run iCOMIC pipelines 
 
 
 #### 3.7. Output information
