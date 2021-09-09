@@ -64,12 +64,13 @@ Once the analysis is completed, iCOMIC will automatically take you to the `Resul
 
 #### 4.2. Analysis steps RNA-Seq
 
-`RNA-Seq` part allows you to identify the differentially expressed genes from RNA Sequencing data. iCOMIC integrates a combination of 3 aligners, 3 expression modellers and 2 differential expression tools along with the tools for Quality control. The tool MultiQC is incorporated to render comprehensive analysis statistics.
+`RNA-Seq` part allows you to identify the differentially expressed genes from RNA Sequencing data. iCOMIC integrates a combination of 2 aligners, 2 expression modellers and 2 differential expression tools along with the tools for Quality control. The tool MultiQC is incorporated to render comprehensive analysis statistics.
 
-  
+-`Aligners`:STAR, HISAT2
 
-[Can give a sample DAG]
+-`Expression modellers`:StringTie, HTSeq
 
+-`differential expression`:DESeq2, ballgown
   
 
 ##### 4.2.1. Input Requirements
