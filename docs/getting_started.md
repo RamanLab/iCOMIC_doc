@@ -33,9 +33,11 @@ iCOMIC is characterized by a Graphical user Interface which enhances the accessi
 #### 3.4. Launching the wrapper
 
 iCOMIC can be launched using a simple command in the terminal.
+Use both command for the first time. Then you can simply type second command only to run the tool  
 
 ```
-$ python iCOMIC_v1.0.py
+$ pip install -e path/to/icomic/folder
+$ icomic
 
 ```
 
