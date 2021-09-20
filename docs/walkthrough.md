@@ -19,7 +19,7 @@ Table shows the tools incorporated in iCOMIC
 |--|--|--| 
 | Quality Control | FastQC, MultiQC, Cutadapt | FastQC, MultiQC, Cutadapt | 
 | Alignment | GEM-Mapper, BWA-MEM, Bowtie2 | STAR, HISAT2 | 
-| Variant Calling | GATK HC, samtools mpileup, FreeBayes, MuSE, GATK Mutect2 | - | 
+| Variant Calling | GATK HC, samtools mpileup, FreeBayes, GATK Mutect2 | - | 
 | Annotation | Annovar, SnpEff | - | 
 | Expression Modeller | - | StringTie, HTSeq | 
 | Differential Expression | - | DESeq2, ballgown | 
@@ -171,12 +171,6 @@ This tool identifies somatic mutations such as indels and SNAs in a diseased sam
 | ``--max-reads-per-alignment-start`` | Maximum number of reads to retain per alignment start position. | 
 | ``-mbq`` | Minimum base quality required to consider a base for calling |
 
-
-###### MuSE
-
- Variant caller for normal-tumor sample analysis
-
-MuSe is a tool that calls somatic point mutations in normal-tumor sample pairs using a Markov substitution model for evolution. More information about the tool can be found in [MuSE variant caller tool page](https://bioinformatics.mdanderson.org/public-software/muse/)
 
 #### Annotators
 ###### SnpEff
