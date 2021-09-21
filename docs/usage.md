@@ -6,7 +6,7 @@
 
 -`Aligners`:GEM-Mapper, BWA-MEM, Bowtie2 
 
--`Variant callers`:GATK HC, samtools mpileup, FreeBayes, MuSE, GATK Mutect2 
+-`Variant callers`:GATK HC, samtools mpileup, FreeBayes, GATK Mutect2 
 
 -`Annotators`:Annovar, SnpEff
 
