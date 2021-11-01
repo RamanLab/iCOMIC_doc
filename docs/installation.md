@@ -29,3 +29,22 @@ $ pip install requirements.txt
 ```
 
   #### 2.4. Conda Installation
+Create an envronment and install the dependencies associated with iCOMIC by using the following command 
+Step 1:
+```
+$ conda env create -f icomic_env.yml
+```
+
+Step 2:
+```
+$ conda activate icomic_env
+```
+
+Step 3:
+```
+$ icomic
+```
+Step 4:
+```
+$ conda deactivate
+```
