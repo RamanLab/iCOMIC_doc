@@ -20,15 +20,7 @@ Setting up iCOMIC is comparatively effortless across Linux or Mac platforms. iCO
 
 The entire source code for the tool is available at “ ”
 
-#### 2.3. Requirements.txt
-
-Install the dependencies associated with iCOMIC by using the following command
-
-```
-$ pip install requirements.txt
-```
-
-  #### 2.4. Conda Installation
+#### 2.3. Conda Installation
 Create an envronment and install the dependencies associated with iCOMIC by using the following command 
 Step 1:
 ```
