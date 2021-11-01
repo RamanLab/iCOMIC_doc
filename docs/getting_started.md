@@ -12,10 +12,10 @@ iCOMIC is an open-source, stand-alone toolkit for genomic data analysis, charact
 
 #### 3.2. Install iCOMIC
 
-Installation is easy as we provide a ``requirements.txt`` file comprising all the software dependencies. Once you clone the iCOMIC github repository, you can install all the associated dependencies using the command below. Every additional software requirement will be managed by the conda environment.
+Installation is easy as we provide a ``icomic_env.yml`` file comprising all the software dependencies. Once you clone the iCOMIC github repository, you can install all the associated dependencies using the command below by creating a new conda environment.
 
 ```
-$ pip install requirements.txt
+$ conda env create -f icomic_env.yml
 ```
 
 
@@ -33,11 +33,13 @@ iCOMIC is characterized by a Graphical user Interface which enhances the accessi
 #### 3.4. Launching the wrapper
 
 iCOMIC can be launched using a simple command in the terminal.
-Use both command for the first time. Then you can simply type second command only to run the tool  
 
 ```
-$ pip install -e path/to/icomic/folder
+$ cd path/to/icomic/folder
+$ conda env create -f icomic_env.yml #for the first time only
+$ conda activate icomic_env
 $ icomic
+$ conda deactivate #after completing the analysis
 
 ```
 
