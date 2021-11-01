@@ -22,9 +22,10 @@ The entire source code for the tool is available at “ ”
 
 #### 2.3. Conda Installation
 Create an envronment and install the dependencies associated with iCOMIC by using the following command 
+
 Step 1:
 ```
-$ conda env create -f icomic_env.yml
+$ conda env create -f icomic_env.yml #for the first time only
 ```
 
 Step 2:
