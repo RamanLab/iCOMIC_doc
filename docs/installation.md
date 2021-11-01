@@ -39,5 +39,5 @@ $ icomic
 ```
 Step 4:
 ```
-$ conda deactivate
+$ conda deactivate #after completing the analysis
 ```
