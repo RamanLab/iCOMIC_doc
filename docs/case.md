@@ -10,13 +10,62 @@
 - iCOMIC package downloaded from GitHub
 - Memory requirement
 
-#### 9.3. Installation
+#### 9.3. Conda Installation
 
-Installation is easy as we provide a requirements.txt file comprising all the software dependencies. Once you clone the iCOMIC github repository, you can install all the associated dependencies using the command below. Every additional software requirement will be managed by the conda environment.
+The entire source code for the tool is available at “ [Github link](https://github.com/RamanLab/iCOMIC) ”
 
-`$ pip install requirements.txt`
+Create an environment and install the dependencies associated with iCOMIC by using the following command: 
+
+```
+$ conda env create -f icomic_env.yml #for the first time only
+$ cd path/to/icomic/folder
+$ conda activate icomic_env
+$ icomic
+$ conda deactivate #after completing the analysis
+
+```
 
 #### 9.4. Testing
+The user can test the iCOMIC pipeline using the Demo samples provided inside iCOMIC folder. 
+
+The path to the respective samples are:
+
+- DNA samples - /iCOMIC/demo_samples/dna
+- RNA samples - /iCOMIC/demo_samples/rna
+- cTag - /iCOMIC/demo_samples/ctag
+- NBDriver - /iCOMIC/demo_samples/NBDriver
+
+After downloading and creating the environment to run iCOMIC, open iCOMIC GUI by simply typing 'icomic' in the terminal and then follow the steps provided below:
+
+## DNA-Seq
+
+- Click upload from Table
+- Browse Sample table path - /iCOMIC/demo_samples/dna/unit_samples.tsv
+- Browse Reference Genome path - /iCOMIC/demo_samples/dna/reference.fa
+- Browse Reference Known Variant path - /iCOMIC/demo_samples/dna/dbsnp.vcf.gz
+- Enter Threads and proceed with the steps given in the section 9.5
+
+## RNA-Seq
+
+- click upload from Folder
+- Browse Sample Folder path - /iCOMIC/demo_samples/rna/samples
+- Browse Fasta File path - /iCOMIC/demo_samples/rna/reference.fa
+- Browse Annotated File path - /iCOMIC/demo_samples/rna/anotation.gtf
+- Enter Threads and proceed with the steps given in the section 9.5
+
+## cTaG
+
+- Browse Path to MAF file - /iCOMIC/demo_samples/ctag/demo.maf
+- Enter Parameters and click Run
+
+Refer section 9.5 for more details
+
+## NBDriver
+
+- Browse Path to VCF file - /iCOMIC/demo_samples/ctag/demo.vcf
+- Click Run
+
+Refer section 9.5 for more details
 
 #### 9.5. Analysis quick guide:
 
@@ -24,7 +73,7 @@ Installation is easy as we provide a requirements.txt file comprising all the so
 
 iCOMIC can be launched using a simple command in the terminal.
 
-`$ ‘python iCOMIC_v01.py’`
+`$ ‘icomic’`
 
 ##### 9.5.2 Running iCOMIC: A quick walkthrough
 
@@ -180,7 +229,7 @@ Displays differentially expressed genes in R plots such as MA plot, Heatmap, PCA
 iCOMIC allows the user to start the analysis with aligned BAM files. For running iCOMIC with BAM files as input, the files should be sorted and stored in a folder named ‘results_dna/mapped’ or ‘results/mapped’ in the case DNA seq and RNA seq workflows respectively. The BAM files should be named in the format `{sample}-{unit}-{condition}.sorted.bam`. It is advised that while choosing this approach, the input is provided as a table. The sample information should be specified as mentioned in section 3 with fq1 and fq2 columns empty.
 ##### 9.5.13 Running cTaG
 
-cTaG (classify TSG and OG) is a tool used to identify tumour suppressor genes (TSGs) and oncogenes (OGs) using somatic mutation data. A maf file is required to run the cTaG tool, it can either be generated from the DNA-Seq output vcf file in the results tab or browsed locally. Added to that, you can mention the parameters required to run the cTag in the parameters option provided.You can click on the run button to initialize the analysis, once the necessary files have been uploaded.Once the analysis is completed, you can click on the Results button to view the results. 
+cTaG (classify TSG and OG) is a tool used to identify tumour suppressor genes (TSGs) and oncogenes (OGs) using somatic mutation data. A maf file is required to run the cTaG tool, it can either be generated from the DNA-Seq output vcf file in the results tab or browsed locally. Added to that, you can mention the parameters required to run the cTag in the parameters option provided.You can click on the run button to initialize the analysis, once the necessary files have been uploaded. Once the analysis is completed, you can click on the Results button to view the results. 
 
 ![Figure 13: cTaG tab ](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/ctag.PNG?raw=true)
 ##### 9.5.14 Running NBDriver
@@ -189,3 +238,5 @@ NBDriver (NEIGHBORHOOD Driver) is a tool used to differentiate between driver an
 
 ![Figure 14: NBDriver tab](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/nbdriver.PNG?raw=true)
 #### 9.6 Retrieving logs:
+
+The Logs tab at the bottom of each tab in the GUI displays the commands executed by the user. Seperate log for each tools are available inside logs folder created during the analysis. The user can check the log files at any time.
