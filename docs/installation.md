@@ -25,19 +25,24 @@ Create an envronment and install the dependencies associated with iCOMIC by usin
 
 Step 1:
 ```
-$ conda env create -f icomic_env.yml #for the first time only
+$ cd path/to/icomic/folder
 ```
 
 Step 2:
 ```
-$ conda activate icomic_env
+$ conda env create -f icomic_env.yml #for the first time only
 ```
 
 Step 3:
 ```
+$ conda activate icomic_env
+```
+
+Step 4:
+```
 $ icomic
 ```
-Step 4:
+Step 5:
 ```
 $ conda deactivate #after completing the analysis
 ```
