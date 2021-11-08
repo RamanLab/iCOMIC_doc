@@ -21,7 +21,7 @@ Setting up iCOMIC is comparatively effortless across Linux or Mac platforms. iCO
 The entire source code for the tool is available at “ [Github link](https://github.com/RamanLab/iCOMIC) ”
 
 #### 2.3. Conda Installation
-Create an envronment and install the dependencies associated with iCOMIC by using the following command 
+Create an environment and install the dependencies associated with iCOMIC by using the following command 
 
 Step 1:
 ```
