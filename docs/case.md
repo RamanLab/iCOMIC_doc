@@ -37,7 +37,7 @@ The path to the respective samples are:
 
 After downloading and creating the environment to run iCOMIC, open iCOMIC GUI by simply typing 'icomic' in the terminal and then follow the steps provided below:
 
-## DNA-Seq
+#### DNA-Seq
 
 - Click upload from Table
 - Browse Sample table path - /iCOMIC/demo_samples/dna/unit_samples.tsv
@@ -45,7 +45,7 @@ After downloading and creating the environment to run iCOMIC, open iCOMIC GUI by
 - Browse Reference Known Variant path - /iCOMIC/demo_samples/dna/dbsnp.vcf.gz
 - Enter Threads and proceed with the steps given in the section 9.5
 
-## RNA-Seq
+#### RNA-Seq
 
 - click upload from Folder
 - Browse Sample Folder path - /iCOMIC/demo_samples/rna/samples
@@ -53,14 +53,14 @@ After downloading and creating the environment to run iCOMIC, open iCOMIC GUI by
 - Browse Annotated File path - /iCOMIC/demo_samples/rna/anotation.gtf
 - Enter Threads and proceed with the steps given in the section 9.5
 
-## cTaG
+#### cTaG
 
 - Browse Path to MAF file - /iCOMIC/demo_samples/ctag/demo.maf
 - Enter Parameters and click Run
 
 Refer section 9.5 for more details
 
-## NBDriver
+#### NBDriver
 
 - Browse Path to VCF file - /iCOMIC/demo_samples/ctag/demo.vcf
 - Click Run
