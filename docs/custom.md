@@ -10,3 +10,11 @@ iCOMIC integrates most of the best practise tools for Whole Genome sequencing an
 Parameters can be specified in the rule itself in the section `params`. If a snakemake wrapper is available for your choice of tool, that can be used, otherwise you need to write a shell command. List of snakemake wrappers are available in [Snakemake wrapper repository](https://snakemake-wrappers.readthedocs.io/en/stable/index.html). 
 
 #### 7.2. How to run a custom pipeline
+The user should create the rule for the new pipeline as mentioned in Section 7.1 . The user can either run the pipeline without GUI or with GUI.
+To run without GUI the user should save the created rule as snakefile and can simply type the following command in the terminal. 
+
+```
+$ snakemake --use-conda -S snakefile_name
+```
+
+For running with iCOMIC, the user should edit icomic_v0.py file. The user should first choose the pipeline and edit accordingly. 
