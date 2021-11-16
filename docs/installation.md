@@ -46,3 +46,4 @@ Step 5:
 ```
 $ conda deactivate #after completing the analysis
 ```
+step 6
