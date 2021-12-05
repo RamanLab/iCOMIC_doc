@@ -23,7 +23,7 @@ Once the analysis is completed, you can click on the `Results` button to view th
 
 ##### 5.2.1. Input Requirements
 
-In order to run NBDriver, the user needs to download the GrCh37 reference genome from this link and put it in the `"/iCOMIC/NBDriver_iCOMIC/" directory`
+In order to run NBDriver, the user needs to download the GrCh37 reference genome from this link and put it in the `"/icomic/NBDriver_iCOMIC/" directory`
 
 A `vcf` file is required to run NBDriver. The vcf file can either be browsed from the DNA-Seq output directory or locally.
 
