@@ -236,7 +236,7 @@ cTaG (classify TSG and OG) is a tool used to identify tumour suppressor genes (T
 ![Figure 13: cTaG tab ](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/ctag.PNG?raw=true)
 ##### 9.5.14 Running NBDriver
 
-NBDriver (NEIGHBORHOOD Driver) is a tool used to differentiate between driver and passenger mutations. A vcf file is required to run NBDriver, it can either be browsed from the DNA-Seq output directory or locally. In order to run NBDriver, the user needs to download the GrCh37 reference genome from this link and put it in the `"/icomic/NBDriver_iCOMIC/"` directory. You can click on the run button to initialize the analysis, once the necessary files have been uploaded. Once the analysis is completed, you can click on the Results button to view the results.
+NBDriver (NEIGHBORHOOD Driver) is a tool used to differentiate between driver and passenger mutations. A vcf file is required to run NBDriver, it can either be browsed from the DNA-Seq output directory or locally. In order to run NBDriver, the user needs to download the GrCh37 reference genome from this [link](https://doi.org/10.5281/zenodo.5759698) and put it in the `"/icomic/NBDriver_iCOMIC/"` directory. You can click on the run button to initialize the analysis, once the necessary files have been uploaded. Once the analysis is completed, you can click on the Results button to view the results.
 
 ![Figure 14: NBDriver tab](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/nbdriver.PNG?raw=true)
 #### 9.6 Retrieving logs:
