@@ -40,10 +40,15 @@ $ conda activate icomic_env
 
 Step 4:
 ```
+$ pip install -e /path/to/iCOMIC folder #for the first time onl
+```
+
+Step 5:
+```
 $ icomic
 ```
-Step 5:
+
+step 6:
 ```
 $ conda deactivate #after completing the analysis
 ```
-step 6
