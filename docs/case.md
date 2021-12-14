@@ -26,45 +26,45 @@ $ conda deactivate #after completing the analysis
 ```
 
 #### 9.4. Testing
-The user can test the iCOMIC pipeline using the Demo samples provided inside iCOMIC folder. 
+The user can test the iCOMIC pipeline using the demo data, reference genome, known variants file, annotation file to run DNA-Seq, RNA-Seq, cTaG and NBDriver provided in this [link](https://doi.org/10.5281/zenodo.5759698)
 
 The path to the respective samples are:
 
-- DNA samples - /iCOMIC/demo_samples/dna
-- RNA samples - /iCOMIC/demo_samples/rna
-- cTag - /iCOMIC/demo_samples/ctag
-- NBDriver - /iCOMIC/demo_samples/NBDriver
+- DNA samples - /dna_germline_samples.tar.gz or /dna_somatic_samples.tar.gz
+- RNA samples - /rna_samples.tar.gz
+- cTag - /variants.maf
+- NBDriver - /NBDriver_vcf.vcf
 
 After downloading and creating the environment to run iCOMIC, open iCOMIC GUI by simply typing 'icomic' in the terminal and then follow the steps provided below:
 
 #### DNA-Seq
 
 - Click upload from Table
-- Browse Sample table path - /iCOMIC/demo_samples/dna/unit_samples.tsv
-- Browse Reference Genome path - /iCOMIC/demo_samples/dna/reference.fa
-- Browse Reference Known Variant path - /iCOMIC/demo_samples/dna/dbsnp.vcf.gz
+- Browse Sample table path - /dna_germline_samples/unit_samples.tsv
+- Browse Reference Genome path - /genome.chr21.fa
+- Browse Reference Known Variant path - /dbsnp.vcf.gz
 - Enter Threads and proceed with the steps given in the section 9.5
 
 #### RNA-Seq
 
 - click upload from Folder
-- Browse Sample Folder path - /iCOMIC/demo_samples/rna/samples
-- Browse Fasta File path - /iCOMIC/demo_samples/rna/reference.fa
-- Browse Annotated File path - /iCOMIC/demo_samples/rna/anotation.gtf
+- Browse Sample Folder path - /rna_samples
+- Browse Fasta File path - /hg38.chr22.fa
+- Browse Annotated File path - /chr22_refGene.gtf
 - Enter Threads and proceed with the steps given in the section 9.5
 
 #### cTaG
 
-- Browse Path to MAF file - /iCOMIC/demo_samples/ctag/demo.maf
+- Browse Path to MAF file - /variants.maf
 - Enter Parameters and click Run
 
 Refer section 9.5 for more details
 
 #### NBDriver
 
-In order to run NBDriver, the user needs to download the GrCh37 reference genome from this link and put it in the `"/iCOMIC/NBDriver_iCOMIC/" directory`
+In order to run NBDriver, the user needs to download the GrCh37 reference genome from this [link](https://doi.org/10.5281/zenodo.5759698) and put it in the `"/iCOMIC/NBDriver_iCOMIC/" directory`
 
-- Browse Path to VCF file - /icomic/demo_samples/ctag/demo.vcf
+- Browse Path to VCF file - /NBDriver_vcf.vcf
 - Click Run
 
 Refer section 9.5 for more details
