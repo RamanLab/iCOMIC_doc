@@ -5,7 +5,7 @@ iCOMIC is a user-friendly pipeline to analyze genomic data that takes in raw seq
 
 -   Serves as a stand-alone end to end analysis toolkit for DNA-Seq and RNA-Seq data
 
--   Contains Machine Learning tools cTaG and NBDriver developed in-house
+-   Contains machine learning tools cTaG and NBDriver developed in-house
     
 -   Characterized by an interactive and user friendly GUI, specifically built to accommodate users with minimal programming expertise
     
