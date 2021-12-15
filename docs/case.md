@@ -8,11 +8,10 @@
 - Python 3.6 and above
 - Miniconda
 - iCOMIC package downloaded from GitHub
-- Memory requirement
 
 #### 9.3. Conda Installation
 
-The entire source code for the tool is available at “ [Github link](https://github.com/RamanLab/iCOMIC) ”
+The entire source code for the tool is available at [this link](https://github.com/RamanLab/iCOMIC)
 
 Create an environment and install the dependencies associated with iCOMIC by using the following command: 
 
@@ -27,7 +26,7 @@ $ conda deactivate #after completing the analysis
 ```
 
 #### 9.4. Testing
-The user can test the iCOMIC pipeline using the demo data, reference genome, known variants file, annotation file to run DNA-Seq, RNA-Seq, cTaG and NBDriver provided in this [link](https://doi.org/10.5281/zenodo.5759698)
+The user can test the iCOMIC pipeline using the demo data, reference genome, known variants file, annotation file to run DNA-Seq, RNA-Seq, cTaG and NBDriver provided in this [link](https://doi.org/10.5281/zenodo.5759698).
 
 The path to the respective samples are:
 
@@ -70,13 +69,13 @@ In order to run NBDriver, the user needs to download the GrCh37 reference genome
 
 Refer section 9.5 for more details
 
-#### 9.5. Analysis quick guide:
+#### 9.5. Analysis quick guide
 
 ##### 9.5.1 Launching the wrapper
 
 iCOMIC can be launched using a simple command in the terminal.
 
-`$ ‘icomic’`
+`$ icomic`
 
 ##### 9.5.2 Running iCOMIC: A quick walkthrough
 
@@ -237,9 +236,9 @@ cTaG (classify TSG and OG) is a tool used to identify tumour suppressor genes (T
 ![Figure 13: cTaG tab ](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/ctag.PNG?raw=true)
 ##### 9.5.14 Running NBDriver
 
-NBDriver (NEIGHBORHOOD Driver) is a tool used to differentiate between driver and passenger mutations. A vcf file is required to run NBDriver, it can either be browsed from the DNA-Seq output directory or locally. In order to run NBDriver, the user needs to download the GrCh37 reference genome from this [link](https://doi.org/10.5281/zenodo.5759698) and put it in the `"/icomic/NBDriver_iCOMIC/"` directory. You can click on the run button to initialize the analysis, once the necessary files have been uploaded. Once the analysis is completed, you can click on the Results button to view the results.
+NBDriver (NEIGHBORHOOD Driver) is a tool used to differentiate between driver and passenger mutations. A vcf file is required to run NBDriver, it can either be browsed from the DNA-Seq output directory or locally. In order to run NBDriver, the user needs to download the hg19 reference genome from this [link](https://zenodo.org/record/5759699/files/hg19.fa?download=1) and put it in the `"/icomic/NBDriver_iCOMIC/"` directory. You can click on the run button to initialize the analysis, once the necessary files have been uploaded. Once the analysis is completed, you can click on the Results button to view the results.
 
 ![Figure 14: NBDriver tab](https://github.com/anjanaanilkumar1289/iCOMIC_doc/blob/master/docs/screenshots/nbdriver.PNG?raw=true)
-#### 9.6 Retrieving logs:
+#### 9.6 Retrieving logs
 
-The Logs tab at the bottom of each tab in the GUI displays the commands executed by the user. Seperate log for each tools are available inside logs folder created during the analysis. The user can check the log files at any time.
+The Logs tab at the bottom of each section in the GUI displays the commands executed by the user. Seperate log for each tools are available inside logs folder created during the analysis. The user can check the log files at any time.
