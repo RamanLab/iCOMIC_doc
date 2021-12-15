@@ -30,10 +30,10 @@ The user can test the iCOMIC pipeline using the demo data, reference genome, kno
 
 The path to the respective samples are:
 
-- DNA samples - /dna_germline_samples.tar.gz or /dna_somatic_samples.tar.gz
-- RNA samples - /rna_samples.tar.gz
-- cTag - /variants.maf
-- NBDriver - /NBDriver_vcf.vcf
+- DNA samples - [dna_germline_samples](https://zenodo.org/record/5759699/files/dna_germline_samples.tar.gz?download=1) or [dna_somatic_samples](https://zenodo.org/record/5759699/files/dna_somatic_samples.tar.gz?download=1)
+- RNA samples - [rna_samples](https://zenodo.org/record/5759699/files/rna_samples.tar.gz?download=1)
+- cTag - [variants.maf](https://zenodo.org/record/5759699/files/variants.maf?download=1)
+- NBDriver - [NBDriver_vcf.vcf](https://zenodo.org/record/5759699/files/NBDriver_vcf.vcf?download=1)
 
 After downloading and creating the environment to run iCOMIC, open iCOMIC GUI by simply typing 'icomic' in the terminal and then follow the steps provided below:
 
@@ -48,7 +48,7 @@ Germline variant calling
 
 Somatic variant calling 
 - Click upload from Folder
-- Sample table path - [dna_somatic_samples/unit_samples.tsv](https://zenodo.org/record/5759699/files/dna_somatic_samples.tar.gz?download=1)
+- Sample Folder path - [dna_somatic_samples](https://zenodo.org/record/5759699/files/dna_somatic_samples.tar.gz?download=1)
 - Reference Genome path - [hg38.fa](https://zenodo.org/record/5759699/files/hg38.fa?download=11)
 - Reference Known Variant path - [clinvar_20191231.vcf.gz](https://zenodo.org/record/5759699/files/clinvar_20191231.vcf.gz?download=1)
 - Enter Threads and proceed with the steps given in the section 9.5
