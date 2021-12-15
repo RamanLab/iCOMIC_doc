@@ -4,11 +4,11 @@
 
 `DNA-Seq`  constitutes the Whole Genome/Exome Sequencing data analysis pipeline which permits the user to call variants from the input samples and annotate them. iCOMIC integrates a combination of 3 aligners, 4 variant callers and 2 annotators along with the tools for Quality control. The tool MultiQC is incorporated to render comprehensive analysis statistics.
 
-`Aligners`:GEM-Mapper, BWA-MEM, Bowtie2 
+1. `Aligners`:GEM-Mapper, BWA-MEM, Bowtie2 
 
-`Variant callers`:GATK HC, samtools mpileup, FreeBayes, GATK Mutect2 
+2. `Variant callers`:GATK HC, samtools mpileup, FreeBayes, GATK Mutect2 
 
-`Annotators`:Annovar, SnpEff
+3. `Annotators`:Annovar, SnpEff
 
 ##### 4.1.1. Input Requirements
 
@@ -66,11 +66,11 @@ Once the analysis is completed, iCOMIC will automatically take you to the `Resul
 
 `RNA-Seq` part allows you to identify the differentially expressed genes from RNA Sequencing data. iCOMIC integrates a combination of 2 aligners, 2 expression modellers and 2 differential expression tools along with the tools for Quality control. The tool MultiQC is incorporated to render comprehensive analysis statistics.
 
-`Aligners`:STAR, HISAT2
+1. `Aligners`:STAR, HISAT2
 
-`Expression modellers`:StringTie, HTSeq
+2. `Expression modellers`:StringTie, HTSeq
 
-`differential expression`:DESeq2, ballgown
+3. `Differential expression`:DESeq2, ballgown
   
 
 ##### 4.2.1. Input Requirements
