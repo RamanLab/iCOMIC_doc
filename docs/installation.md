@@ -39,7 +39,7 @@ $ conda activate icomic_env
 
 Step 4:
 ```
-$ pip install -e /path/to/iCOMIC folder #for the first time only
+$ pip install -e /path/to/icomic directory #for the first time only
 ```
 
 Step 5:
