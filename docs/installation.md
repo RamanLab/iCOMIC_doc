@@ -14,11 +14,10 @@ Setting up iCOMIC is comparatively effortless across Linux or Mac platforms. iCO
 
 - iCOMIC package downloaded from GitHub
 
-- Memory requirement
 
 #### 2.2. Github download and installation
 
-The entire source code for the tool is available at “ [iCOMIC](https://github.com/RamanLab/iCOMIC) ”
+The entire source code for the tool is available at [this link](https://github.com/RamanLab/iCOMIC)
 
 #### 2.3. Conda Installation
 Create an environment and install the dependencies associated with iCOMIC by using the following command 
@@ -40,7 +39,7 @@ $ conda activate icomic_env
 
 Step 4:
 ```
-$ pip install -e /path/to/iCOMIC folder #for the first time onl
+$ pip install -e /path/to/iCOMIC folder #for the first time only
 ```
 
 Step 5:
