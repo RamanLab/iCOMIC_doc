@@ -29,7 +29,7 @@ $ conda env create -f icomic_env.yml #for the first time only
 
 Step 2:
 ```
-$ cd path/to/icomic/folder
+$ cd path/to/icomic directory
 ```
 
 Step 3:
