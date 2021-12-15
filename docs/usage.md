@@ -12,9 +12,9 @@
 
 ##### 4.1.1. Input Requirements
 
-The significant obligation is raw `fastq` files which can either be single-end or paired-end. Fastq read details can be specified in two different methods, either by uploading a folder containing the reads or using a tab-separated file describing the reads. If you choose the `Upload from folder` mode, the path to the folder containing the fastq files needs to be specified. Additionally, all the files in the folder need to be named in the format specified in the section `Input file format `.
+The significant obligation is raw `fastq` files which can either be single-end or paired-end. Fastq read details can be specified in two different methods, either by uploading a folder containing the reads or using a tab-separated file describing the reads. If you choose the `Upload from folder` mode, the path to the folder containing the fastq files needs to be specified. Additionally, all the files in the folder need to be named in the format specified in the section [Input file format](https://icomic-doc.readthedocs.io/en/latest/getting_started.html#input-file-format).
 
-Alternatively, if you decide to use the `Upload from table` mode, a tab-separated file consolidating particulars about the sample needs to be fed in. Refer to the `Input file format` section for formatting the table. An example tab separated file named `units_sample.tsv` is available at this [link](https://zenodo.org/record/5759699/files/dna_germline_samples.tar.gz?download=1). 
+Alternatively, if you decide to use the `Upload from table` mode, a tab-separated file consolidating particulars about the sample needs to be fed in. Refer to the [Input file format](https://icomic-doc.readthedocs.io/en/latest/getting_started.html#input-file-format) section for formatting the table. An example tab separated file named `units_sample.tsv` is available at this [link](https://zenodo.org/record/5759699/files/dna_germline_samples.tar.gz?download=1). 
 
   
 
@@ -75,7 +75,7 @@ Once the analysis is completed, iCOMIC will automatically take you to the `Resul
 
 ##### 4.2.1. Input Requirements
 
-Similar to the DNA-Seq pipeline, the major requirement here is also raw `fastq` files, either single-end or paired-end. Fastq read details can be specified in two different methods, either by uploading a folder containing the reads or using a tab-separated file describing the reads. Refer to the `Input file format` section for preparing the input reads. Furthermore, the RNA-Seq part demands a path to the reference genome, a `fasta` file, annotated file in `gtf` format, and a transcript file.
+Similar to the DNA-Seq pipeline, the major requirement here is also raw `fastq` files, either single-end or paired-end. Fastq read details can be specified in two different methods, either by uploading a folder containing the reads or using a tab-separated file describing the reads. Refer to the [Input file format](https://icomic-doc.readthedocs.io/en/latest/getting_started.html#input-file-format) section for preparing the input reads. Furthermore, the RNA-Seq part demands a path to the reference genome, a `fasta` file, annotated file in `gtf` format, and a transcript file.
 
 Once all the fields are filled, you can proceed to the `Quality Control` tab using the next button.
 
