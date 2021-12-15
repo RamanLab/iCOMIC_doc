@@ -36,9 +36,9 @@ iCOMIC can be launched using a simple command in the terminal.
 
 ```
 $ conda env create -f icomic_env.yml #for the first time only
-$ cd path/to/icomic/folder
+$ cd path/to/icomic directory
 $ conda activate icomic_env
-$ pip install -e /path/to/iCOMIC folder #for the first time only
+$ pip install -e /path/to/icomic directory #for the first time only
 $ icomic
 $ conda deactivate #after completing the analysis
 
