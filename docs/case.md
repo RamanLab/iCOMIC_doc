@@ -104,7 +104,7 @@ Here is a typical set of actions to run iCOMIC pipelines:
 - Results for RNA-Seq analysis include multiQC analysis statistics, R plots such as MA plot, Heatmap, PCA plot and box plot and list of differentially expressed genes
 - Proceed to cTaG/NBDriver tab for further analysis if needed
 
-##### 9.5.3 Adding samples: step one
+##### 9.5.3 Adding samples: Method one
 
 iCOMIC accepts input information in `two` different modes. In the `first` method, the user can feed the path to a folder containing raw fastq files. For the direct upload of a sample folder, the folder should contain only the samples and the sample file names should be in a specific format:
 
@@ -116,7 +116,7 @@ iCOMIC accepts input information in `two` different modes. In the `first` method
 - If the sample is paired end, `{1 / 2}` should be replaced by 1 or 2 accordingly for forward and reverse sequences. If the sample is single end, {1 / 2} can be replaced by 1
 
 
-##### 9.5.4 Adding samples: step two
+##### 9.5.4 Adding samples: Method two
 
 The user can provide a table consolidating particulars of raw data. The sample information should be given in a tab delimited file with a header row.
 The Column names should be:
