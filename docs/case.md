@@ -39,32 +39,40 @@ After downloading and creating the environment to run iCOMIC, open iCOMIC GUI by
 
 #### DNA-Seq
 
+Germline variant calling 
 - Click upload from Table
-- Browse Sample table path - /dna_germline_samples/unit_samples.tsv
-- Browse Reference Genome path - /genome.chr21.fa
-- Browse Reference Known Variant path - /dbsnp.vcf.gz
+- Sample table path - [dna_germline_samples/unit_samples.tsv](https://zenodo.org/record/5759699/files/dna_germline_samples.tar.gz?download=1)
+- Reference Genome path - [genome.chr21.fa](https://zenodo.org/record/5759699/files/genome.chr21.fa?download=1)
+- Reference Known Variant path - [dbsnp.vcf.gz](https://zenodo.org/record/5759699/files/dbsnp.vcf.gz?download=1)
+- Enter Threads and proceed with the steps given in the section 9.5
+
+Somatic variant calling 
+- Click upload from Folder
+- Sample table path - [dna_somatic_samples/unit_samples.tsv](https://zenodo.org/record/5759699/files/dna_somatic_samples.tar.gz?download=1)
+- Reference Genome path - [hg38.fa](https://zenodo.org/record/5759699/files/hg38.fa?download=11)
+- Reference Known Variant path - [clinvar_20191231.vcf.gz](https://zenodo.org/record/5759699/files/clinvar_20191231.vcf.gz?download=1)
 - Enter Threads and proceed with the steps given in the section 9.5
 
 #### RNA-Seq
 
 - click upload from Folder
-- Browse Sample Folder path - /rna_samples
-- Browse Fasta File path - /hg38.chr22.fa
-- Browse Annotated File path - /chr22_refGene.gtf
+- Sample Folder path - [rna_samples](https://zenodo.org/record/5759699/files/rna_samples.tar.gz?download=1)
+- Fasta File path - [hg38.chr22.fa](https://zenodo.org/record/5759699/files/hg38.chr22.fa?download=1)
+- Annotated File path - [chr22_refGene.gtf](https://zenodo.org/record/5759699/files/chr22_refGene.gtf?download=1)
 - Enter Threads and proceed with the steps given in the section 9.5
 
 #### cTaG
 
-- Browse Path to MAF file - /variants.maf
+- Path to MAF file - [variants.maf](https://zenodo.org/record/5759699/files/variants.maf?download=1)
 - Enter Parameters and click Run
 
 Refer section 9.5 for more details
 
 #### NBDriver
 
-In order to run NBDriver, the user needs to download the GrCh37 reference genome from this [link](https://doi.org/10.5281/zenodo.5759698) and put it in the `"/iCOMIC/NBDriver_iCOMIC/" directory`
+In order to run NBDriver, the user needs to download the hg19 reference genome from this [link](https://doi.org/10.5281/zenodo.5759698) and put it in the `"/iCOMIC/NBDriver_iCOMIC/" directory`
 
-- Browse Path to VCF file - /NBDriver_vcf.vcf
+- Path to VCF file - [NBDriver_vcf.vcf](https://zenodo.org/record/5759699/files/NBDriver_vcf.vcf?download=1)
 - Click Run
 
 Refer section 9.5 for more details
