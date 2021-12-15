@@ -2,19 +2,19 @@
 
 #### 4.1. Analysis steps DNA-Seq
 
-`DNA-Seq`  constitutes the Whole Genome/Exome Sequencing data analysis pipeline which permits the user to call variants from the input samples and annotate them. iCOMIC integrates a combination of 3 aligners, 5 variant callers and 2 annotators along with the tools for Quality control. The tool MultiQC is incorporated to render comprehensive analysis statistics.
+`DNA-Seq`  constitutes the Whole Genome/Exome Sequencing data analysis pipeline which permits the user to call variants from the input samples and annotate them. iCOMIC integrates a combination of 3 aligners, 4 variant callers and 2 annotators along with the tools for Quality control. The tool MultiQC is incorporated to render comprehensive analysis statistics.
 
--`Aligners`:GEM-Mapper, BWA-MEM, Bowtie2 
+`Aligners`:GEM-Mapper, BWA-MEM, Bowtie2 
 
--`Variant callers`:GATK HC, samtools mpileup, FreeBayes, GATK Mutect2 
+`Variant callers`:GATK HC, samtools mpileup, FreeBayes, GATK Mutect2 
 
--`Annotators`:Annovar, SnpEff
+`Annotators`:Annovar, SnpEff
 
 ##### 4.1.1. Input Requirements
 
-The significant obligation is raw `fastq` files which can either be single-end or paired-end. Fastq read details can be specified in two different methods, either by uploading a folder containing the reads or using a tab-separated file describing the reads. If you choose the `Upload from folder` mode, the path to the folder containing the fastq files needs to be specified. Additionally, all the files in the folder need to be named in the format specified in the section ` Input file format `.
+The significant obligation is raw `fastq` files which can either be single-end or paired-end. Fastq read details can be specified in two different methods, either by uploading a folder containing the reads or using a tab-separated file describing the reads. If you choose the `Upload from folder` mode, the path to the folder containing the fastq files needs to be specified. Additionally, all the files in the folder need to be named in the format specified in the section `Input file format `.
 
-Alternatively, if you decide to use the `Upload from table` mode, a tab-separated file consolidating particulars about the sample needs to be fed in. Refer to the ` Input file format` section for formatting the table.
+Alternatively, if you decide to use the `Upload from table` mode, a tab-separated file consolidating particulars about the sample needs to be fed in. Refer to the `Input file format` section for formatting the table. An example tab separated file named `units_sample.tsv` is available at this [link](https://zenodo.org/record/5759699/files/dna_germline_samples.tar.gz?download=1). 
 
   
 
@@ -32,15 +32,15 @@ In the `Quality Control` widget, you can examine the quality of your samples for
 
 In the tool selection widget, you will be asked to choose your desired set of tools for analysis.
 
--Aligner
+Aligner
 
 You can choose a software for sequence alignment from the drop down menu. You will also need to input the genome index corresponding to the choice of aligner. No worries! iCOMIC allows you to generate the required index using the `Generate index` button. One will have the permission to change the values for the mandatory parameters displayed. Moreover, if you are an expert bioinformatician, iCOMIC allows you to play around with the advanced parameters. Clicking on the `Advanced` button would open a pop-up of all the parameters associated with a tool.
 
--Variant Caller
+Variant Caller
 
 This section permits you to choose a variant caller from the set of tools integrated. If the input sample is normal-tumor specific, then only those tools which call variants comparing the normal and tumor samples will be displayed. On the other hand, if you want to call variants corresponding to the reference genome, variant callers of that type would be displayed. iCOMIC allows you to set mandatory as well as advanced parameters for the selected tool.
 
--Annotator
+Annotator
 
 This section allows you to choose a tool for annotating your called variants and specify the parameters.
 
@@ -50,7 +50,7 @@ This section allows you to choose a tool for annotating your called variants and
 
 The `Run` tab displays an `Unlock` button and a `Run` button. `Run` is for initializing the analysis. When the analysis starts, if a warning icon pops up near the `Unlock` button, you need to click the `Unlock` button to unlock the working directory and then click `Run` to proceed with the analysis. Progress bar present in the tab allows you to examine the progress of analysis.
 
-##### 4.1.5. Results: a quick check
+##### 4.1.5. Results: A quick check
 
 Once the analysis is completed, iCOMIC will automatically take you to the `Results` tab which displays three major results.
 
@@ -66,11 +66,11 @@ Once the analysis is completed, iCOMIC will automatically take you to the `Resul
 
 `RNA-Seq` part allows you to identify the differentially expressed genes from RNA Sequencing data. iCOMIC integrates a combination of 2 aligners, 2 expression modellers and 2 differential expression tools along with the tools for Quality control. The tool MultiQC is incorporated to render comprehensive analysis statistics.
 
--`Aligners`:STAR, HISAT2
+`Aligners`:STAR, HISAT2
 
--`Expression modellers`:StringTie, HTSeq
+`Expression modellers`:StringTie, HTSeq
 
--`differential expression`:DESeq2, ballgown
+`differential expression`:DESeq2, ballgown
   
 
 ##### 4.2.1. Input Requirements
@@ -91,15 +91,15 @@ In the `Quality Control` widget, you can examine the quality of your samples for
 
 In the tool selection widget, you will be asked to choose your desired set of tools for analysis.
 
--Aligner
+Aligner
 
 You can choose a software for sequence alignment from the drop down menu. You will also need to input the genome index corresponding to the choice of aligner. No worries! iCOMIC allows you to generate the required index using the `Generate index` button. One will have the permission to change the values for the mandatory parameters displayed. Moreover, if you are an expert bioinformatician, iCOMIC allows you to play around with the advanced parameters. Clicking on the `Advanced` button would open a pop-up of all the parameters associated with a tool.
 
--Expression Modeller
+Expression Modeller
 
 This section allows you to choose an expression modeller from the integrated list of tools for counting the reads with the help of annotation file. Users will also have the freedom to set parameters corresponding to the tool.
 
--Differential Expression tool
+Differential Expression tool
 
 Here you can choose a tool for quantifying differential expression and can also set parameters.
 
@@ -110,7 +110,7 @@ Select warning icon pops up near the unlock button, you need to click the unlock
 
   
 
-##### 4.2.5. Results: a quick check
+##### 4.2.5. Results: A quick check
 
 Once the analysis is completed, iCOMIC will automatically take you to the `Results` tab which displays three major results.
 
