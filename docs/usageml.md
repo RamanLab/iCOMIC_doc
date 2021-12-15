@@ -6,7 +6,7 @@
 
 ##### 5.1.1. Input Requirements
 
-A `maf` file is required to run the cTaG tool. A maf file can either be generated from the DNA-Seq output vcf file in the results tab or browsed locally. Added to that, you can mention the `parameters` required to run the cTag in the parameters option provided.
+A `maf` file is required to run the cTaG tool. A maf file can either be generated from the DNA-Seq output vcf file in the results tab or browsed locally. Apart from that, you can mention the `parameters` required to run the cTag in the parameters option provided.
 
 ##### 5.1.2. Initialization of the analysis
 
@@ -19,11 +19,11 @@ Once the analysis is completed, you can click on the `Results` button to view th
 
 #### 5.2. NBDriver
 
-`NBDriver` (NEIGHBORHOOD Driver) is a tool used to differentiate between driver and passenger mutations using features derived from the neighborhood sequences of somatic mutations. NBDriver returns a list of all mutations labelled as Driver or Passenger.
+`NBDriver` (NEIGHBORHOOD Driver) is a tool used to differentiate between driver and passenger mutations using features derived from the neighborhood sequences of somatic mutations. NBDriver returns a list of all mutations labelled as `Driver` or `Passenger`.
 
 ##### 5.2.1. Input Requirements
 
-In order to run NBDriver, the user needs to download the GrCh37 reference genome from this [link](https://doi.org/10.5281/zenodo.5759698) and put it in the `"/icomic/NBDriver_iCOMIC/" directory`
+In order to run NBDriver, the user needs to download the hg19 reference genome from this [link](https://zenodo.org/record/5759699/files/hg19.fa?download=1) and put it in the `"/icomic/NBDriver_iCOMIC/" directory`
 
 A `vcf` file is required to run NBDriver. The vcf file can either be browsed from the DNA-Seq output directory or locally.
 
