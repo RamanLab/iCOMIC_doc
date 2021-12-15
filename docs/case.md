@@ -32,7 +32,7 @@ The path to the respective samples are:
 
 - DNA samples - [dna_germline_samples](https://zenodo.org/record/5759699/files/dna_germline_samples.tar.gz?download=1) or [dna_somatic_samples](https://zenodo.org/record/5759699/files/dna_somatic_samples.tar.gz?download=1)
 - RNA samples - [rna_samples](https://zenodo.org/record/5759699/files/rna_samples.tar.gz?download=1)
-- cTag - [variants.maf](https://zenodo.org/record/5759699/files/variants.maf?download=1)
+- cTaG - [variants.maf](https://zenodo.org/record/5759699/files/variants.maf?download=1)
 - NBDriver - [NBDriver_vcf.vcf](https://zenodo.org/record/5759699/files/NBDriver_vcf.vcf?download=1)
 
 After downloading and creating the environment to run iCOMIC, open iCOMIC GUI by simply typing 'icomic' in the terminal and then follow the steps provided below:
