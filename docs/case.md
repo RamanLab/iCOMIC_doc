@@ -17,7 +17,7 @@ Create an environment and install the dependencies associated with iCOMIC by usi
 
 ```
 $ conda env create -f icomic_env.yml #for the first time only
-$ cd path/to/icomic/folder
+$ cd path/to/icomic directory
 $ conda activate icomic_env
 $ pip install -e /path/to/icomic directory #for the first time only
 $ icomic
