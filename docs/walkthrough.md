@@ -1,4 +1,4 @@
-## 6.Walkthrough of pre-constructed pipeline
+## 6. Walkthrough of pre-constructed pipeline
 
 #### 6.1. List of pipelines
 
@@ -141,7 +141,7 @@ Samtools mpileup together with BCFtools call identifies the variants. Some key p
 | ``-Q`` | Minimum base quality for a base to be considered | 
 
 
-###### FreeBayes
+###### freebayes
 
  Variant caller for single sample analysis 
 
