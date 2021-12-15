@@ -17,7 +17,7 @@ Installation is easy as we provide a ``icomic_env.yml`` file comprising all the 
 ```
 $ conda env create -f icomic_env.yml
 ```
-
+Refer to the [section 2.3](https://icomic-doc.readthedocs.io/en/latest/installation.html) of Tutorials for the detailed step by step instructions for the installation.
 
 #### 3.3. The components
 
