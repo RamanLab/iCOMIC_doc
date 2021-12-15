@@ -8,7 +8,7 @@ This guide will walk you through the steps necessary to understand, install, and
 
 #### 3.1. iCOMIC overview
 
-iCOMIC is an open-source, stand-alone toolkit for genomic data analysis, characterized by a python based Graphical User Interface. The tool enables researchers with minimal programming expertise to draw consequential insights from DNA-Seq and RNA-Seq data along with machine learning tools cTaG and NBDriver .
+iCOMIC is an open-source, stand-alone toolkit for genomic data analysis, characterized by a python based Graphical User Interface. The tool enables researchers with minimal programming expertise to draw consequential insights from DNA-Seq and RNA-Seq data along with machine learning tools cTaG and NBDriver.
 
 #### 3.2. Install iCOMIC
 
@@ -35,7 +35,7 @@ iCOMIC is characterized by a Graphical user Interface which enhances the accessi
 iCOMIC can be launched using a simple command in the terminal.
 
 ```
-$$ conda env create -f icomic_env.yml #for the first time only
+$ conda env create -f icomic_env.yml #for the first time only
 $ cd path/to/icomic/folder
 $ conda activate icomic_env
 $ pip install -e /path/to/iCOMIC folder #for the first time only
@@ -87,7 +87,7 @@ The user will have the freedom to choose any possible combination of tools. Figu
 
 
 
-Refer section 9 Tutorials for the typical set of actions to run iCOMIC pipelines 
+Refer to the [section 9](https://icomic-doc.readthedocs.io/en/latest/case.html) of Tutorials for the typical set of actions to run iCOMIC pipelines. 
 
 
 #### 3.7. Output information
@@ -95,7 +95,7 @@ Refer section 9 Tutorials for the typical set of actions to run iCOMIC pipelines
 All outputs are stored in separate folders inside the main folder iCOMIC, for each pipeline along with log information.
 
 
--DNA-Seq
+DNA-Seq
 
 
 DNA-Seq analysis generates five output folders as follows.
@@ -110,7 +110,7 @@ Contains annotated `vcf` files.
 	- Index
 This is an optional folder which contains the index files if the user chooses to generate index corresponding to the choice of aligner.
 
--RNA-Seq
+RNA-Seq
 
 
 RNA-Seq analysis generates five output folders inside the main folder iCOMIC, as follows.
@@ -125,10 +125,10 @@ Contain a text file with a consolidated list of differentially expressed genes.
 	- Index
 This is an optional folder which contains the index files if the user chooses to generate index corresponding to the choice of aligner.
 
--cTaG
+cTaG
 
 cTaG (classify TSG and OG) is a tool used to identify tumour suppressor genes (TSGs) and oncogenes (OGs) using somatic mutation data.The cTaG model returns the list of all genes labelled as TSG or OG or unlabelled along with predictions made my each model and whether the gene is among top predictions.
 
--NBDriver
+NBDriver
 
 NBDriver (NEIGHBORHOOD Driver) is a tool used to differentiate between driver and passenger mutations. It returns a list of all mutations labelled as Driver or Passenger.
