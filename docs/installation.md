@@ -17,37 +17,49 @@ Setting up iCOMIC is comparatively effortless across Linux or Mac platforms. iCO
 
 #### 2.2. Github download and installation
 
-The entire source code for the tool is available at [this link](https://github.com/RamanLab/iCOMIC)
+The entire source code for the tool is available at [this link](https://github.com/RamanLab/iCOMIC). The user can either download as a zip file directly or git clone 
 
 #### 2.3. Conda Installation
 Create an environment and install the dependencies associated with iCOMIC by using the following command 
 
 Step 1:
 ```
-$ conda env create -f icomic_env.yml #for the first time only
+$ cd iCOMIC 
 ```
+After clonning iCOMIC directory, move inside the directory where the environment file exists. 
 
 Step 2:
 ```
-$ cd path/to/icomic directory
+$ conda env create -f icomic_env.yml #for the first time only
 ```
+This helps in creating an environment, which contains all the necessary requirements.
 
 Step 3:
 ```
-$ conda activate icomic_env
+$ cd icomic #path/to/icomicdirectory
 ```
+Move inside icomic directory to run the tool.
 
 Step 4:
 ```
-$ pip install -e /path/to/icomic directory #for the first time only
+$ conda activate icomic_env
 ```
+Activating the created environment. 
 
 Step 5:
 ```
+$ pip install -e /path/to/icomic directory #for the first time only
+```
+To install icomic
+
+Step 6:
+```
 $ icomic
 ```
+Opens the GUI by typing this command everytime.
 
-step 6:
+step 7:
 ```
 $ conda deactivate #after completing the analysis
 ```
+Deactivates the environment
