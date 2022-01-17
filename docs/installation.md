@@ -24,7 +24,7 @@ Create an environment and install the dependencies associated with iCOMIC by usi
 
 Step 1:
 ```
-$ cd iCOMIC 
+$ cd iCOMIC-main 
 ```
 After clonning iCOMIC directory, move inside the directory where the environment file exists. 
 
