@@ -26,7 +26,7 @@ Step 1:
 ```
 $ cd iCOMIC-main 
 ```
-After clonning iCOMIC directory, move inside the directory where the environment file exists. 
+After cloning iCOMIC directory, move inside the directory where the environment file exists. 
 
 Step 2:
 ```
