@@ -42,6 +42,7 @@ After downloading and creating the environment to run iCOMIC, open iCOMIC GUI by
 Germline variant calling 
 - Click upload from Table
 - Sample table path - [dna_germline_samples/unit_samples.tsv](https://zenodo.org/record/5759699/files/dna_germline_samples.tar.gz?download=1)
+NOTE:Edit the paths inside the tsv file before uploading. 
 - Reference Genome path - [genome.chr21.fa](https://zenodo.org/record/5759699/files/genome.chr21.fa?download=1)
 - Reference Known Variant path - [dbsnp.vcf.gz](https://zenodo.org/record/5759699/files/dbsnp.vcf.gz?download=1)
 - Enter Threads and proceed with the steps given in the section 9.5
