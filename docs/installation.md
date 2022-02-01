@@ -36,21 +36,21 @@ This helps in creating an environment, which contains all the necessary requirem
 
 Step 3:
 ```
-$ cd icomic #path/to/icomicdirectory
-```
-Move inside icomic directory to run the tool.
-
-Step 4:
-```
 $ conda activate icomic_env
 ```
 Activating the created environment. 
 
-Step 5:
+Step 4:
 ```
-$ pip install -e /path/to/icomic directory #for the first time only
+$ pip install -e icomic #for the first time only
 ```
 To install icomic
+
+Step 5:
+```
+$ cd icomic #path/to/icomic directory
+```
+Move inside icomic directory to run the tool.
 
 Step 6:
 ```
