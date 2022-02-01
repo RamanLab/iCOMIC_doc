@@ -35,10 +35,11 @@ iCOMIC is characterized by a Graphical user Interface which enhances the accessi
 iCOMIC can be launched using a simple command in the terminal.
 
 ```
+$ cd iCOMIC-main
 $ conda env create -f icomic_env.yml #for the first time only
-$ cd path/to/icomic directory
 $ conda activate icomic_env
-$ pip install -e /path/to/icomic directory #for the first time only
+$ pip install -e icomic #for the first time only
+$ cd icomic #path/to/icomic directory
 $ icomic
 $ conda deactivate #after completing the analysis
 
