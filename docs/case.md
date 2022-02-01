@@ -16,10 +16,11 @@ The entire source code for the tool is available at [this link](https://github.c
 Create an environment and install the dependencies associated with iCOMIC by using the following command: 
 
 ```
+$ cd iCOMIC-main
 $ conda env create -f icomic_env.yml #for the first time only
-$ cd path/to/icomic directory
 $ conda activate icomic_env
-$ pip install -e /path/to/icomic directory #for the first time only
+$ pip install -e icomic #for the first time only
+$ cd icomic #path/to/icomic directory
 $ icomic
 $ conda deactivate #after completing the analysis
 
@@ -42,6 +43,7 @@ After downloading and creating the environment to run iCOMIC, open iCOMIC GUI by
 Germline variant calling 
 - Click upload from Table
 - Sample table path - [dna_germline_samples/unit_samples.tsv](https://zenodo.org/record/5759699/files/dna_germline_samples.tar.gz?download=1)
+
 NOTE:Edit the paths inside the tsv file before uploading. 
 - Reference Genome path - [genome.chr21.fa](https://zenodo.org/record/5759699/files/genome.chr21.fa?download=1)
 - Reference Known Variant path - [dbsnp.vcf.gz](https://zenodo.org/record/5759699/files/dbsnp.vcf.gz?download=1)
