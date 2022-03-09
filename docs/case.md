@@ -182,6 +182,7 @@ This section allows you to choose a tool for annotating your called variants and
 ##### 9.5.9 Setting up differential gene expression analysis
 
 RNA-Seq part allows you to identify the differentially expressed genes from RNA Sequencing data. iCOMIC integrates a combination of 2 aligners, 2 expression modellers and 2 differential expression tools along with the tools for Quality control. The tool MultiQC is incorporated to render comprehensive analysis statistics.
+
 Available pipelines:
 
 1. HISAT2-StringTie-ballgown
