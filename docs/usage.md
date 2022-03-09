@@ -72,7 +72,12 @@ Once the analysis is completed, iCOMIC will automatically take you to the `Resul
 
 3. `Differential expression`:DESeq2, ballgown
   
+Available pipelines:
 
+1. HISAT2-StringTie-ballgown
+2. STAR-StringTie-ballgown
+3. HISAT2-HTSeq-DESeq2
+4. STAR-HTSeq-DESeq2 
 ##### 4.2.1. Input Requirements
 
 Similar to the DNA-Seq pipeline, the major requirement here is also raw `fastq` files, either single-end or paired-end. Fastq read details can be specified in two different methods, either by uploading a folder containing the reads or using a tab-separated file describing the reads. Refer to the [Input file format](https://icomic-doc.readthedocs.io/en/latest/getting_started.html#input-file-format) section for preparing the input reads. Furthermore, the RNA-Seq part demands a path to the reference genome, a `fasta` file, annotated file in `gtf` format, and a transcript file.
