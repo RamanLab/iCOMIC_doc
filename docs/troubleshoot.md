@@ -15,7 +15,7 @@
 
 	Same as other operating systems.
 	
-4. How to solve 'docker: Got permission denied while trying to connect to the Docker daemon socket at unix' error while installing iCOMIC with Docker?
+4. How to solve '**docker: Got permission denied while trying to connect to the Docker daemon socket at unix**' error while installing iCOMIC with Docker?
 	
 	Please change the permission of socket file by running the command 
 	```
@@ -23,7 +23,7 @@
 	```
 	It should solve the issue.
 	
-5. How to solve 'xhost:  unable to open display ":0"' while Docker installation of iCOMIC?
+5. How to solve '**xhost:  unable to open display ":0"**' while Docker installation of iCOMIC?
 
 	```
 	$ xhost local:docker
