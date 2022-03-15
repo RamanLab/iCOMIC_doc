@@ -14,7 +14,27 @@
 3. As a Windows user, how do I set up iCOMIC?
 
 	Same as other operating systems.
+	
+4. How to solve 'docker: Got permission denied while trying to connect to the Docker daemon socket at unix' error while installing iCOMIC with Docker?
+	
+	Please change the permission of socket file by running the command 
+	```
+	$ sudo chmod 666 /var/run/docker.sock
+	```
+	It should solve the issue.
+	
+5. How to solve 'xhost:  unable to open display ":0"' while Docker installation of iCOMIC?
 
+	```
+	$ xhost local:docker
+	```
+	or 
+	```
+	$ xhost local:root
+	```
+
+	Running either one of these commands should solve the issue
+	
 -  New Users
 
 1. How do I report bugs and suggest improvements for iCOMIC?
