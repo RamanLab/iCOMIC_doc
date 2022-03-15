@@ -66,8 +66,15 @@ Deactivates the environment
 
 #### 2.2. Installation with Docker image
 
-iCOMIC can be run in Linux system using docker image. Running the following command, by default will launch iCOMIC and is ready to use. Make sure to add the path to your local directory containing samples. Docker support for Mac or Windows platforms will be extended in subsequent releases of iCOMIC.
+iCOMIC can be run in Linux system using docker image. Please [install the Docker](https://docs.docker.com/engine/install/) on your system and test the installation using 
+```
+$ docker -v
+``` 
+
+Running the following command, by default will launch iCOMIC and is ready to use. Make sure to add the path to your local directory containing samples. Docker support for Mac or Windows platforms will be extended in subsequent releases of iCOMIC.
 
 ```
 $ docker run -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v </path/to/local/directory>:</path/to/local/directory> ramanlab/icomic:latest
 ```
+
+Please visit [Troubleshooting](https://icomic-doc.readthedocs.io/en/latest/troubleshoot.html) section of this document if you encounter errors while docker installation of iCOMIC.
