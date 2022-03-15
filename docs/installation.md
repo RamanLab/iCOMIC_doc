@@ -12,7 +12,7 @@ Setting up iCOMIC is comparatively effortless across Linux or Mac platforms. iCO
 
 - Miniconda
 
-- iCOMIC package downloaded from GitHub
+- iCOMIC package downloaded from GitHub or Docker installed (only for Linux)
 
 
 #### 2.2. Github download and installation
