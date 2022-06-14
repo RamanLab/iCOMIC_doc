@@ -6,7 +6,7 @@ Setting up iCOMIC is comparatively effortless across Linux or Mac platforms. iCO
 
 #### 2.1. Prerequisites
 
-- Linux/Windows/Mac platform
+- Linux/Windows/Mac(MacOS v10.15.5 or above) platform
 
 - Python 3.6 and above
 
@@ -28,9 +28,15 @@ $ cd iCOMIC-main
 ```
 After cloning iCOMIC directory, move inside the directory where the environment file exists. 
 
-Step 2:
+Step 2 - **For Linux users**:
 ```
 $ conda env create -f icomic_env.yml #for the first time only
+```
+This helps in creating an environment, which contains all the necessary requirements.
+
+Step 2 - **For MacOS users**:
+```
+$ conda env create -f icomic_env_mac.yml #for the first time only
 ```
 This helps in creating an environment, which contains all the necessary requirements.
 
