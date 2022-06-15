@@ -4,7 +4,7 @@
 `iCOMIC` (Integrating Context Of Mutation In Cancer) is an open-source, standalone tool for genomic data analysis characterized by a Python-based Graphical User Interface, automated bioinformatics pipelines for analyzing `Whole genome/exome`  and `transcriptomic` data along with Machine Learning tools, `cTaG` and `NBDriver` for cancer related data analysis. It serves as a point and click application facilitating genomic data analysis accessible to researchers with minimal programming expertise. iCOMIC takes in raw sequencing data in FASTQ format as an input, and outputs insightful statistics on the nature of the data. iCOMIC toolkit is embedded in `Snakemake`, a workflow management system and is characterized by a user-friendly GUI built using `PyQt5` which improves its ease of access. The toolkit features many independent core workflows in both whole genomic and transcriptomic data analysis pipelines.
 
 #### 9.2. Prerequisites:
-- Linux/Windows/Mac platform
+- Linux/Windows/Mac (MacOS v10.15.5 or above) platform
 - Python 3.6 and above
 - Miniconda
 - iCOMIC package downloaded from GitHub
@@ -17,7 +17,8 @@ Create an environment and install the dependencies associated with iCOMIC by usi
 
 ```
 $ cd iCOMIC-main
-$ conda env create -f icomic_env.yml #for the first time only
+$ conda env create -f icomic_env.yml  #for Linux users
+$ conda env create -f icomic_env_mac.yml  #for MacOS users
 $ conda activate icomic_env
 $ pip install -e icomic #for the first time only
 $ cd icomic #path/to/icomic directory
