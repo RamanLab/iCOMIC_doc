@@ -70,7 +70,7 @@ $ conda deactivate #after completing the analysis
 ```
 Deactivates the environment
 
-#### 2.2.2 Installation with Docker image
+#### 2.3. Installation with Docker image
 
 iCOMIC can be run in Linux system using docker image. Please [install the Docker](https://docs.docker.com/engine/install/) on your system and test the installation using 
 ```
@@ -85,7 +85,7 @@ $ docker run -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v </path/to/l
 
 Please visit [Troubleshooting](https://icomic-doc.readthedocs.io/en/latest/troubleshoot.html) section of this document if you encounter errors while docker installation of iCOMIC.
 
-#### 2.3. Windows Installation
+#### 2.4. Windows Installation
 
 For iCOMIC, some dependencies are platform specific, and hence the environment file created in Linux failed when we tried to recreate it in Windows. The primary reason for this is that most NGS analysis tools are unix-based and consequently the conda environment for iCOMIC had to be created on an unix-based OS. Also, NGS analysis is computationally intensive and requires access to high performance computing (HPC) frameworks and since Linux is the most widely used OS for HPC systems, we feel that users won’t face any issue while running our pipelines. However, we have suggested a workaround in the documentation for users with a windows OS. This involves installing and opening iCOMIC by creating a Windows Subsystem for Linux (WSL) session inside MobaXterm, a widely-used toolbox for remote computing. Please find the steps mentioned below:
 
